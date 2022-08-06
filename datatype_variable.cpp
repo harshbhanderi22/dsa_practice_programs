@@ -34,6 +34,4 @@ int main(){
     cout << ua << endl;
 
     //There are many operators which we are going to use in normal programs such as +,-,*,/,%,<,>,!=,==,>=,<=,!
-
-    
 }

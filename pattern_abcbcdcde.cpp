@@ -1,16 +1,17 @@
 #include<iostream>
 using namespace std;
-
 int main(){
     int n;
     cin >> n;
     int row = 1;
     while (row<=n)
     {
-        int column = 0;
-        while (column<row)
+        int column = 1;
+        while (column<=n)
         {
-            cout << row + column << " ";
+            char ch = 'A';
+            ch = ch + (row + column - 2);
+            cout <<ch << " ";
             column++;
         }
         cout << endl;
@@ -20,9 +21,9 @@ int main(){
 }
 
 /**
- 1 
-2 3
-3 4 5
-4 5 6 7
-5 6 7 8 9
+A B C D E 
+B C D E F 
+C D E F G 
+D E F G H
+E F G H I
 */

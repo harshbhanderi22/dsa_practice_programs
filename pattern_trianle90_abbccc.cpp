@@ -2,28 +2,29 @@
 using namespace std;
 
 int main(){
-    int r;
-    cout << "Enter the number of Rows ";
-    cin >> r;
+    int n;
+    cin >> n;
     int i = 1;
-    while (i<=r)
+    char ch = 'A';
+    while (i<=n)
     {
         int j = 1;
         while (j<=i)
         {
-            cout << "* ";
+            cout << ch << " ";
             j++;
         }
         cout << endl;
+        ch++;
         i++;
-    }
+        }
     
 }
 
 /**
-* 
-* *
-* * *
-* * * *
-* * * * *
+A 
+B B
+C C C
+D D D D
+E E E E E
 */

@@ -1,30 +1,32 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main(){
+int main()
+{
     int n;
     cin >> n;
     int row = 1;
-    while (row<=n)
+    
+    while (row <= n)
     {
         int column = 1;
-        int count = row;
+        
         while (column <= row)
         {
-            cout << count << " ";
+            char ch = 'A';
+            ch = ch + row + column - 2;
+            cout << ch << " ";
             column++;
-            count++;
         }
         cout << endl;
         row++;
-        }
-    
+    }
 }
 
 /**
- 1 
-2 3
-3 4 5
-4 5 6 7
-5 6 7 8 9
+ A 
+B C
+C D E
+D E F G
+E F G H I
 */

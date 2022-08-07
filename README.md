@@ -1,1 +1,1 @@
-This branch contains program of conditonal statments and patterns using loops
+This branch cover many basci concepts such as bitwise operator, post-increment,pre-increment,for loop, operator precedence, variable scope, break, continue etc.

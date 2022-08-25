@@ -1,1 +1,1 @@
-In this branch, I have learn about switch case, functions.
+In this branch, I have learnt about Array and also developed program to find minimum and maximum from array

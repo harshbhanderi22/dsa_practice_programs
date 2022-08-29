@@ -1,1 +1,1 @@
-In this branch, I have learnt about Array and also developed program to find minimum and maximum from array
+In this branch, I have learnt about binary search algorithm.

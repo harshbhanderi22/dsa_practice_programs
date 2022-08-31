@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
 
+// We will compare all elements with arr[0] as, all element of first sorted araay will be greater than arr[0]
+// but second sorted array's elements will not be bigger than arr[0] so can go to that elements by changing position of end.
 int get_pivot(int a[],int n){
     int start = 0;
     int end = n-1;
